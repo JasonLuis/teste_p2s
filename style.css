@@ -1,0 +1,167 @@
+* {
+    font-family: 'Arial';
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+.info {
+    width: 70%;
+}
+
+.table-header {
+    width: 100%;
+    border: solid 1px;
+}
+
+.table-header tr th {
+    border: solid 1px;
+    text-align: center;
+}
+
+.table-header tr th p {
+    font-weight: 100;
+    line-height: 3px;
+}
+
+.container-info {
+    width: 100%;
+}
+
+.header {
+    margin-top: 50px;
+    border: 1px solid;
+    background-color: #2596be;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+.description {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.col-6 {
+    width: 50%;
+    display: flex;
+}
+
+.col-3 {
+    width: 20%;
+    display: flex;
+}
+
+.field {
+    width: 180px;
+}
+
+.full-line {
+    height: 1px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.description-table {
+    width: 100%;
+}
+
+.description-table tr th{
+    background-color: #2596be;
+    border: 0px;
+    color: white;
+    height: 30px;
+}
+
+.description-table tr:nth-child(2n) {
+    height: 30px;
+}
+
+.description-table tr td .full-line
+ {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.description-table tr td h4 {
+    margin-bottom: 0px;
+}
+
+.description-table tr {
+    border: solid 1px;
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.mg-top {
+    margin-top: 70px;
+}
+
+.mg-top-5 {
+    margin-top: 5px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
+.align-end {
+    justify-content: end;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.style-h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.signature {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.field-signature {
+    width: 50%;
+    justify-self: center;
+}
+
+.field-signature {
+    text-align: center;
+}
